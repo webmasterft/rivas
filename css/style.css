@@ -1,0 +1,241 @@
+.ei-slider{
+	position: relative;
+	width: 100%;
+	max-width: 1200px;
+	height: 500px;
+	margin: 0 auto;
+	
+}
+#ei-slider{
+	background: url(../img/productos/residencial/alea/bkbombillo.jpg)no-repeat;
+}
+#ei-slider2{
+	background: url(../img/productos/residencial/alea/bkcandelabra.jpg)no-repeat;
+}
+#ei-slider3{
+	background: url(../img/productos/residencial/alea/bkreflector.jpg)no-repeat;
+}
+#ei-slider4{
+	background: url(../img/productos/residencial/helicos/bkhelicos.jpg)no-repeat;
+}
+#ei-slider5{
+	background: url(../img/productos/residencial/orion/bkorion.jpg)no-repeat;
+}
+#ei-slider6{
+	background: url(../img/productos/residencial/jardines/bkjardin.jpg)no-repeat;
+}
+#ei-slider7{
+	background: url(../img/productos/comercial/ostias/bkostia.jpg)no-repeat;
+}
+#ei-slider8{
+	background: url(../img/productos/comercial/pared/bkpared.jpg)no-repeat;
+}
+#ei-slider9{
+	background: url(../img/productos/comercial/superficies/bksuperficie.jpg)no-repeat;
+}
+#ei-slider10{
+	background: url(../img/productos/carreteras/carretera/bkcarretera.jpg)no-repeat;
+}
+#ei-slider11{
+	background: url(../img/productos/carreteras/autopista/bkautopista.jpg)no-repeat;
+}
+#ei-slider12{
+	background: url(../img/productos/tunel/bktunel.jpg)no-repeat;
+}
+#ei-slider13{
+	background: url(../img/productos/postes/urbanizaciones/bkurbanizaciones.jpg)no-repeat;
+}
+#ei-slider14{
+	background: url(../img/productos/postes/lamparas/bklampara.jpg)no-repeat;
+}
+#ei-slider15{
+	background: url(../img/productos/postes/solar/bksolar.jpg)no-repeat;
+}
+#ei-slider16{
+	background: url(../img/productos/reflectores/led/bkled.jpg)no-repeat;
+}
+#ei-slider17{
+	background: url(../img/productos/reflectores/spot/bkspot.jpg)no-repeat;
+}
+#ei-slider18{
+	background: url(../img/productos/reflectores/paisaje/bkpaisaje.jpg)no-repeat;
+}
+#ei-slider19{
+	background: url(../img/productos/reflectores/potencia/bkpotencia.jpg)no-repeat;
+}
+#ei-slider20{
+	background: url(../img/productos/decoracion/perfiles/bkperfiles.jpg)no-repeat;
+}
+#ei-slider21{
+	background: url(../img/productos/decoracion/cinta/bkcinta.jpg)no-repeat;
+}
+#ei-slider22{
+	background: url(../img/productos/decoracion/esfera/bkesfera.jpg)no-repeat;
+}
+#ei-slider23{
+	background: url(../img/productos/industrial/campanas/bkcampana.jpg)no-repeat;
+}
+.ei-slider-loading{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index:999;
+	background: rgba(0,0,0,0.9);
+	color: #fff;
+	text-align: center;
+	line-height: 400px;
+}
+.ei-slider-large{
+	height: 100%;
+	width: 100%;
+	position:relative;
+	overflow: hidden;
+}
+.ei-slider-large li{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+}
+.ei-slider-large li img{
+	width: 100%;
+	margin-left: 0 !important;
+}
+.ei-title p span{
+	font-weight: bold;
+color: #AAAAAA;
+opacity: 1 !important;
+}
+.ei-title p{
+	opacity: 1 !important;
+}
+.ei-title{
+	position: absolute;
+right: 5%;
+margin-right: 13%;
+top: 16%;
+color: #fff;
+line-height: 24px;
+text-align: left;
+font-size: 18px;
+border: 1px solid #6B6A6A;
+padding: 10px;
+background: #000;
+}
+.ei-title h2, .ei-title h3{
+	text-align: right;
+}
+.ei-title h2{
+	font-size: 40px;
+	line-height: 50px;
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	color: #b5b5b5;
+}
+.ei-title h3{
+	font-size: 70px;
+	line-height: 70px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-transform: uppercase;
+	color: #000;
+}
+.ei-slider-thumbs{
+	height: 35px;
+	margin: 0 auto;
+	position: relative;
+}
+.ei-slider-thumbs li{
+	position: relative;
+	float: left;
+	height: 100%;
+}
+.ei-slider-thumbs li.ei-slider-element{
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	height: 100%;
+	z-index: 10;
+	text-indent: -9000px;
+	background: #002d57;
+	background: #002d57;
+}
+.ei-slider-thumbs li a{
+	display: block;
+color: white;
+background: #5ab75c;
+width: 100%;
+height: 100%;
+cursor: pointer;
+-webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.3), 
+ 0px 1px 0px 1px rgba(255,255,255,0.5);
+-moz-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.3), 
+ 0px 1px 0px 1px rgba(255,255,255,0.5);
+box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.3), 
+ 0px 1px 0px 1px rgba(255,255,255,0.5);
+-webkit-transition: background 0.2s ease;
+-moz-transition: background 0.2s ease;
+-o-transition: background 0.2s ease;
+-ms-transition: background 0.2s ease;
+transition: background 0.2s ease;
+padding-top: 6px;
+}
+.ei-slider-thumbs li a:hover{
+	background-color: #f0f0f0;
+}
+.ei-slider-thumbs li img{
+	position: absolute;
+top: -69px;
+opacity: 0;
+z-index: 999;
+max-width: 100%;
+	-webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+	/*-webkit-box-reflect: 
+        below 0px -webkit-gradient(
+            linear, 
+            left top, 
+            left bottom, 
+            from(transparent), 
+            color-stop(50%, transparent), 
+            to(rgba(255,255,255,0.3))
+            );*/
+left: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+.ei-slider-thumbs li:hover img{
+	opacity: 1;
+	bottom: 13px;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+@media screen and (max-width: 830px) {
+	.ei-title{
+		position: absolute;
+		right: 0px;
+		margin-right: 0px;
+		width: 100%;
+		text-align: center;
+		top: auto;
+		bottom: 10px;
+		background: #fff;
+		background: rgba(255,255,255,0.9);
+		padding: 5px 0;
+	}
+	.ei-title h2, .ei-title h3{
+		text-align: center;
+	}
+	.ei-title h2{
+		font-size: 20px;
+		line-height: 24px;
+	}
+	.ei-title h3{
+		font-size: 30px;
+		line-height: 40px;
+	}
+}

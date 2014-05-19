@@ -1,0 +1,37 @@
+.navbar-nav > li > a {
+	
+	
+	transition:height 2s;
+-webkit-transition:height 2s; /* Safari */
+}
+.dropdown-menu > li > a{
+	position: absolute;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+	transition:movv 2s;
+-webkit-transition:movv 2s; /* Safari */
+
+}
+/*keyframes*/
+@keyframes botones
+{
+0%   {background: rgba(238, 238, 238, 0); }
+100% {background: rgba(238, 238, 238, 0.9); }
+}
+
+@-webkit-keyframes botones /* Safari and Chrome */
+{
+0%   {background: rgba(238, 238, 238, 0);}
+100% {background: rgba(238, 238, 238, 0.9);}
+}
+@keyframes movv
+{
+0%   {left: 10px; }
+100% {left: 20px; }
+}
+
+@-webkit-keyframes movv /* Safari and Chrome */
+{
+0%   {left: 10px; }
+100% {left: 20px; }
+}
