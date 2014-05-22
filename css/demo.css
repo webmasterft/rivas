@@ -217,8 +217,32 @@ p.codrops-demos a.current-demo:hover{
 		left: 0 !important;
 	}
 
+	.sepa2 img{
+	  vertical-align: top;
+	  width: 100%;
+	}
+
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+	border: none;
+}
+
+.navbar-nav {
+	position: absolute;
+	top: 53px;
+	width: 100%;
+	background: #ccc;
+	z-index: 999;
+	margin: 0;
+}
+
+.collapsing{
+	position: absolute;
+	top: 53px;
+}
+
 	footer.pie{
-		margin-bottom: 50px;
+		margin-bottom: 100px;
+		display: inline-block;
 	}
 
 	footer.pie ul li {
@@ -227,7 +251,12 @@ p.codrops-demos a.current-demo:hover{
 		display: inline-block;
 	}
 
-
+	footer.pie ul li a, footer.pie img{
+	  	color: #a2a2a2;
+		font-size: 14px;
+		font-weight: bold;
+		margin:0 13px;
+	}
 }
 
 /* Smartphones (landscape) ----------- */
