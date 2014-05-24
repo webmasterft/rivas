@@ -257,7 +257,27 @@ p.codrops-demos a.current-demo:hover{
 		font-weight: bold;
 		margin:0 13px;
 	}
+
+	.hi-icon, .hi-icon2{
+		margin:15px !important;	
+	}
+	.cont-slide{
+	  max-width: 1600px;
+	height: 700px;
+	padding-top: 11%;
+	background: #000;
+	}
+	.titulo img{
+	  width: 80%;
+	}
+
+	.certifica img{
+		margin:5px;
+	}
 }
+
+
+
 
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width : 321px) {
@@ -270,20 +290,32 @@ p.codrops-demos a.current-demo:hover{
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
 /* Styles */
+	.cont-slide {
+		height: 700px;
+		background: #000;
+	}
+
 }
 
 /* iPads (landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {
 /* Styles */
 	.navbar-brand{
 		padding: 0px 0 0 463px;
 	}
 }
 
+
+
+
+
+
+
+
 /* iPads (portrait) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
 /* Styles */
 
 }
@@ -291,9 +323,15 @@ p.codrops-demos a.current-demo:hover{
 /* Desktops and laptops ----------- */
 @media only screen and (min-width : 1224px) {
 /* Styles */
-.navbar-brand{
+	.navbar-brand{
 		padding: 0px 0 0 463px;
 	}
+	.cont-slide {
+		height: 700px;
+		background: #000;
+	}
+
+
 }
 
 /* Large screens ----------- */
@@ -302,6 +340,6 @@ p.codrops-demos a.current-demo:hover{
 }
 
 /* iPhone 4 ---------- */
-@media only screen and (-webkit-min-device-pixel-ratio : 1.5),only screen and (min-device-pixel-ratio : 1.5) {
+@media only screen and (-webkit-min-pixel-ratio : 1.5),only screen and (min-pixel-ratio : 1.5) {
 /* Styles */
 }
